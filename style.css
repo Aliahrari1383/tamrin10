@@ -88,6 +88,7 @@ nav ul ul li a {
     background-color: #fff;
     border: 1px solid #333;
     padding: 20px;
+    margin-top: 25px;
 }
 .footer {
     padding: 15px;
@@ -158,5 +159,16 @@ input.search {
     overflow: hidden;
     display: block;
 }
-
+@media screen and (max-width:1378px) {
+    .leftcol, .rightcol, .vasat  {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:600px) {
+    nav {
+display: none;
+    }
+    
+}
 
